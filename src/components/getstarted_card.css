@@ -1,0 +1,80 @@
+.card-bg{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    width: 100%;
+    font-family: 'Outfit';
+    background-color: #D2DAFF;
+}
+
+.card-bg .outer-card{
+    
+    box-sizing: border-box;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    left: 0%;
+    right: 4.11%;
+    top: 0%;
+    bottom: 8.78%;
+    padding: 40px;
+    background: rgba(255, 231, 11, 0.7);
+    border: 3px solid #000000;
+}
+
+.card-bg .outer-card .card-content{
+    
+    box-sizing: border-box;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    
+    left: 4.11%;
+    
+    top: 12.78%;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    border: 3px solid #000000;
+}
+
+.card-bg .outer-card .card-content h2{
+    font-family: 'Outfit';
+    padding: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 77.9%;
+}
+
+.card-bg .outer-card .card-content h5{
+    padding-left:10px ;
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 8px;
+    
+}
+
+.card-bg .outer-card .card-content p{
+    
+    padding: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.card-bg .outer-card .card-content button{
+    border: 3px #000000 solid ;
+    padding: 8px;
+    
+    margin-left: 480px;
+    align-content: center;
+
+
+}
+
+.card-bg .outer-card .card-content button:hover{
+    background-color: #AAE3E2;
+
+}

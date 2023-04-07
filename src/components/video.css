@@ -1,0 +1,23 @@
+.Videocontainer{
+    width: auto;
+    height: 400px;
+    background: #EEF1FF;
+    
+    border-bottom:3px solid #000000;
+  }
+  
+  .Videocontainer img{
+    padding-top: 40px;
+    max-width:100%;
+    height: auto;
+    display: block;
+    align-self: center;
+    margin: auto;
+    
+  }
+  
+  
+  
+  
+  
+  

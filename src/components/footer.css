@@ -1,0 +1,17 @@
+.footer{
+    padding: 80px;
+    background-color: #4c4845;
+    color: white;
+    font-family: 'Outfit';
+    font-size: 12px;
+  
+  }
+  
+  .footer .grid-container 
+  {
+    display: grid;
+  }
+  
+  .grid-item{
+    padding: 10px;
+  }

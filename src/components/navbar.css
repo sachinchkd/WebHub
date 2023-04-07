@@ -1,0 +1,57 @@
+*{
+    margin: auto;
+}
+
+.navbar{
+    width: auto;
+    height: 30px;
+    background-color: #ADBBEB;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+
+  .navbar button{
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 580;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-family:"Outfit" ;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color:rgba(100, 148, 237, 0.507);
+    color: #FFF2F2;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24),0 8px 40px 0 rgba(0,0,0,0.19);
+  
+  }
+  
+  .navbar > button:hover {
+    background-color: #FFF2F2 ;
+  }
+  
+  .navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    /* max-width: auto;
+    margin: auto; */
+    font-family:"Outfit" ;
+    border-bottom: 3px #000000;
+    background-color: #8ea6e9e0;
+  
+  }
+  
+  .navbar img{
+    width: 100px;
+  }
