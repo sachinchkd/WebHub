@@ -1,57 +1,112 @@
+/* *{
+  margin: auto;
+} */
+
+
+
 *{
-    margin: auto;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #7286D3;
+  --secondary-color: #D9ACF5;
 }
 
 .navbar{
-    width: auto;
-    height: 30px;
-    background-color: #ADBBEB;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+  width: auto;
+  background-color: var(--primary-color) ;
+  justify-content: space-between; 
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow:0px 4px 10px rgba(0,0,0,.25);
+
+
+}
+
+.navbar img{
+  width: 80px;
+  margin-right: 100px;
+  vertical-align: centre;
+}
+
+.div1{
+  display: inline-block;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+
+}
+
+.div2{
+  display: inline-block;
+  align-items: centre;
+  display: flex;
+}
+
+.div1 a{
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.categories:hover{
+
+  cursor: pointer;
 
 }
 
 
-  .navbar button{
-    margin-left: 16px;
-    text-decoration: none;
-    padding: 5px 10px;
-    font-weight: 580;
-    color: #000000;
-    background-color: transparent;
-    border: none;
-    text-align: center;
-    font-family:"Outfit" ;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 30px;
-    cursor: pointer;
-  }
-  
-  .navbar button:hover {
-    background-color:rgba(100, 148, 237, 0.507);
-    color: #FFF2F2;
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24),0 8px 40px 0 rgba(0,0,0,0.19);
-  
-  }
-  
-  .navbar > button:hover {
-    background-color: #FFF2F2 ;
-  }
-  
-  .navbar {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    /* max-width: auto;
-    margin: auto; */
-    font-family:"Outfit" ;
-    border-bottom: 3px #000000;
-    background-color: #8ea6e9e0;
-  
-  }
-  
-  .navbar img{
-    width: 100px;
-  }
+.buy{
+
+  color: white;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  border-style: solid;
+  box-sizing: border-box;
+  border: 0px solid var(--secondary-color);
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 5px;
+
+}
+
+.cart{
+
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  border-style: solid;
+  box-sizing: border-box;
+  border: 1px solid white;
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+
+}
+
+

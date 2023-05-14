@@ -1,17 +1,33 @@
-.footer{
-    padding: 80px;
-    background-color: #4c4845;
-    color: white;
-    font-family: 'Outfit';
-    font-size: 12px;
-  
-  }
-  
-  .footer .grid-container 
-  {
-    display: grid;
-  }
-  
-  .grid-item{
-    padding: 10px;
-  }
+*{
+  box-sizing: border-box;
+}
+
+
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainDiv hr{
+  color: black;
+  width: 100%;
+}
+
+
+.footer-div{
+
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  column-gap: 300px;
+  margin-left: 60px;
+
+}
+
+.footer-div li{
+  list-style-type: none;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 10px;
+}

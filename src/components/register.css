@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+
+
+*{
+  font-family:'Spline Sans';
+  padding: 0;
+}
+
+
+.register-div{
+  position: relative;
+  background-color: rgb(244, 244, 244);
+  width: 600px;
+  height: 400px;
+  max-height:1000px;
+  border-radius: 9px;
+  border-color: black;
+  padding-left: 4%;
+  padding-top: 30px;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.typeSelect , .templateSelect , .colorSelect{
+
+  display: inline-block;
+  position: relative;
+  padding: 8px 5px 8px 5px;
+  width: 500px;
+  font-size: 15px ;  
+  color: black;
+  border-radius: 5px;
+  border-color: rgb(191, 191, 191);
+  background-color: white;
+  cursor: pointer;
+  align-items: centre;
+  justify-content: space-between;
+
+}
+
+
+.typeSelect:hover, .typeSelect:focus {
+  border-color: #999;
+}
+
+.typeSelect option {
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+}
+
+.question1{
+
+  margin-bottom: 3%;
+
+}
+
+.type-selector{
+
+  margin-bottom: 5%;
+
+}
+
+.selectDiv{
+
+  margin-top:4px;
+
+}
+
+.template-selector{
+
+  margin-bottom: 5%;
+
+}
+
+.color-selector{
+
+  margin-bottom: 5%;
+
+}
+
+.website-name{
+
+  margin-bottom: 5%;
+
+}
+
+.inputDiv{
+
+  margin-top: 4px;
+
+}
+
+.website-input{
+
+  width: 500px;
+  height: 30px;
+
+}
