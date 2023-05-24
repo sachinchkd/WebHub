@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.offer-text1{
+
+  color: #7286D3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 73px;
+  margin-bottom: 0;
+}
+
+.offer-text2{
+
+  color: #B1B2FF;
+  font-size: 48px;
+  margin-top: 0;
+
+}
+
+.shop-now{
+
+  background: #D9ACF5;
+  border-radius: 2px;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-left: 0;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 10px;
+
+  border-style: solid;
+  box-sizing: border-box;
+  border: 0px solid #D9ACF5;
+
+  cursor: pointer;
+  transition: background-color 1s, color 1s;
+
+}
+
+.more{
+
+  background: white;
+  border-radius: 2px;
+  font-weight: 600;
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 10px;
+
+  border-style: solid;
+  box-sizing: border-box;
+  border: 1px solid black;
+
+  cursor: pointer;
+  transition: background-color 1s, color 1s;  
+
+
+}
+
+.offer-button{
+  display: inline-block;
+  display: flex;
+  padding-left: 190px;
+  padding-bottom: 30px;
+}
+
+
+
+.offer{
+  align-items: centre;
+  padding-left: 150px;
+  background-image: url("../../img/offer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: 120px;
+  margin-bottom: 4%;
+
+}
+
+/* .offer-pic img{
+
+  width: 1519px;
+
+} */
+
+.sale-button{
+
+  width: auto;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 2px solid black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+.new-arrival{
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000A8;
+
+
+}
+
+.hot-sale{
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000A8;
+
+}
+
+.discount{
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000A8;
+
+
+}

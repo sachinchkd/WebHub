@@ -1,9 +1,9 @@
 import React from 'react'
-import { Navbar } from "./navbar";
-import { Footer } from './footer';
-import pic from '../img/item2.jpg'
+import { NavbarTemplate2 } from './navbar_template2';
+import { Footer } from '../footer';
+import pic from '../../img/item2.jpg'
 
-import './productCard.css'
+import './productCard_template2.css'
 
 
 
@@ -12,7 +12,7 @@ export const ProductCard = () => {
 
     <div>
 
-      <Navbar/>
+      <NavbarTemplate2/>
 
 
       <div className='product-card'>

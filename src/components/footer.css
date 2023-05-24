@@ -19,7 +19,8 @@
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
   column-gap: 300px;
-  margin-left: 60px;
+  margin-left: 0;
+  margin-right: 130px;
 
 }
 

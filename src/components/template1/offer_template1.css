@@ -25,6 +25,8 @@
   border-radius: 2px;
   font-weight: 600;
   margin-right: 15px;
+  margin-left: 0;
+  margin-top: 20px;
 
   display: flex;
   flex-direction: row;
@@ -74,7 +76,7 @@
 .offer{
   align-items: centre;
   padding-left: 150px;
-  background-image: url("../img/offer.png");
+  background-image: url("../../img/offer.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;

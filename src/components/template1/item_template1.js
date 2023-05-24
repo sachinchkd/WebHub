@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
-import './item.css'
-import pic from '../img/item2.jpg'
+import './item_template1.css'
+import pic from '../../img/item2.jpg'
 
-export const Item = () => {
+export const ItemTemplate1 = () => {
   return (
 
     <div className='mainDiv'>

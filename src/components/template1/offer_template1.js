@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
-import './offer.css'
+import './offer_template1.css'
 // import pic from '../img/offer.png'
 
-export const Offer = () => {
+export const OfferTemplate1 = () => {
 
   const [scrollPosition, setScrollPosition] = useState(0);
 

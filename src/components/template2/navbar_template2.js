@@ -1,14 +1,18 @@
 import React from 'react'
-import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 
-import logo from '../img/logo.png'
-import './navbar.css'
+import logo from '../../img/logo.png'
+import './navbar_template2.css'
+
 
 const primary_color = "#7286D3";
 const secondary_color = "#D9ACF5";
 
 
-export const Navbar = ()=>{
+export const NavbarTemplate2 = ()=>{
+
+  const navigate = useNavigate()
+
 
   function setColor(color1,color2){
 
@@ -19,19 +23,6 @@ export const Navbar = ()=>{
   }
 
   setColor(primary_color,secondary_color)
-
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  const catClick = () => {
-
-    setScrollPosition(500);
-    
-    window.scrollTo({
-      top:scrollPosition,
-      behaviour: 'smooth'
-    });
-
-  };
 
   return(
 
@@ -45,7 +36,7 @@ export const Navbar = ()=>{
           Home
         </a>
 
-        <a onClick={catClick} className='categories'>
+        <a onClick={() => navigate('/template2/category')} className='categories'>
           Categories
         </a>
 
