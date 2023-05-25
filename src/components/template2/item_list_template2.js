@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 
 
-import pic from '../../img/item2.jpg'
+import pic from '../../img/item3.jpg'
 
 import './item_list_template2.css'
 

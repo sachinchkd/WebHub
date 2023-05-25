@@ -12,6 +12,8 @@ export const ProductCardTemplate2 = () => {
   const itemName = "Redmi Note 11 Pro Max"
   const itemPrice = "Rs.40000"
 
+  const itemDescription = "It comes Snapdragon 695 chipset, a 5000 mAh battery with 67- watt fast charging, and a triple camera setup.";
+
   return (
 
     <div>
@@ -87,7 +89,7 @@ export const ProductCardTemplate2 = () => {
             </h3>
             
             <p>
-              This is a T-shirt.
+              {itemDescription}
             </p>
 
           </div>

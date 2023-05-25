@@ -15,5 +15,19 @@
     padding: 40px;
     text-align: center;
   }
+
+  .problem-info{
+
+    display: block;
+    margin-left: 33%;
+
+
+  }
+
+  .problem-solved{
+
+    font-weight: bold;
+
+  }
   
    

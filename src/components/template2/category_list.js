@@ -7,10 +7,16 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import './category_list.css'
 
 
-import pic from '../../img/item2.jpg'
+import pic from '../../img/item3.jpg'
 
 
 export const CategoryListTemplate2 = () => {
+
+  const cat1Name = "Redmi";
+  const cat2Name = "Samsung";
+  const cat3Name = "Apple";
+
+
   
   // const imagePath = '../../img/item2.jpg';
 
@@ -46,7 +52,7 @@ export const CategoryListTemplate2 = () => {
 
 
               <a href='/template2/category/category-card'>
-                Men
+                {cat1Name}
               </a>
 
             </div>
@@ -61,7 +67,7 @@ export const CategoryListTemplate2 = () => {
 
 
               <a href='/template2/category/category-card'>
-                Women
+                {cat2Name}
               </a>
 
             </div>
@@ -75,7 +81,8 @@ export const CategoryListTemplate2 = () => {
               </Link>
               <a href='/template2/category/category-card'>
 
-                Kids
+                {cat3Name}
+                
               </a>
 
             </div>

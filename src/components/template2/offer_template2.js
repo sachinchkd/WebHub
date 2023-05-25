@@ -24,22 +24,27 @@ export const OfferTemplate2 = () => {
 
     <div className='offer'>
 
-      <h1 className='offer-text1'>
+      <div className='offer-text'>
 
-      UP TO 40% OFF 
+        <h1 className='offer-text1'>
 
-      </h1>
+          UP TO 40% OFF 
 
-      <h1 className='offer-text2'>
+        </h1>
 
-      Biggest Event Of The Year
+        <h1 className='offer-text2'>
 
-      </h1>
+          Biggest Event Of The Year
+
+        </h1>
+
+      </div>
+
 
       <div className='offer-button'>
 
-        <button onClick={shopClick} className='shop-now'>
-          SHOP NOW
+        <button onClick={shopClick} className='shop-btn'>
+          Shop Now
         </button>
 
         {/* <button className='more'>

@@ -2,10 +2,19 @@
   box-sizing: border-box;
 }
 
+.offer-text{
+
+  display: block;
+  margin-left: 25%;
+  margin-bottom: 0;
+  margin-top: 4%;
+
+
+}
 
 .offer-text1{
 
-  color: #7286D3;
+  color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 73px;
   margin-bottom: 0;
@@ -24,14 +33,6 @@
   background: #D9ACF5;
   border-radius: 2px;
   font-weight: 600;
-  margin-right: 15px;
-  margin-left: 0;
-  margin-top: 20px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 5px 10px;
 
   border-style: solid;
   box-sizing: border-box;
@@ -64,24 +65,21 @@
 
 }
 
-.offer-button{
-  display: inline-block;
-  display: flex;
-  padding-left: 190px;
-  padding-bottom: 30px;
-}
+
 
 
 
 .offer{
   align-items: centre;
   padding-left: 150px;
-  background-image: url("../../img/offer.png");
+  background-image: url("../../img/offer3.png");
+  background-color: rgba(92, 92, 92, 0.5);
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
   padding-top: 120px;
-  margin-bottom: 4%;
+  /* margin-bottom: 4%; */
 
 }
 
@@ -138,3 +136,30 @@
 
 
 }
+
+.offer-button{
+
+  margin-top: 3%;
+  margin-right: 25%;
+
+}
+
+.shop-btn{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7286D3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+
+
+}
+
+
