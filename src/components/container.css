@@ -1,33 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
 .text_container{
+
     background-color: #d9d9d911;
     margin: auto;
     border-bottom:3px  #ffffffb9;
     height: 400px;
     border-bottom: 3px #000000;
-  }
+
+}
+
+.info-wrapper{
+
+  margin-left: 10%;
+
+}
   
-  .text_container h2{
-    font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    
-    font-size: 30px;
-    padding: 40px;
-    text-align: center;
-  }
+.container-heading1 , .container-heading2 , .container-heading3{
 
-  .problem-info{
+  font-family: "Outfit";
+  font-size: 100px;
+  font-weight: 1700;
 
-    display: block;
-    margin-left: 33%;
+}
 
+.container-info1{
 
-  }
+  margin-left: 20%;
+  margin-top: 2%;
 
-  .problem-solved{
+}
 
-    font-weight: bold;
+.container-info2{
 
-  }
+  margin-left: 30%;
+
+}
+
+.container-info3{
+
+  margin-left: 25%;
+
+}
+
   
    

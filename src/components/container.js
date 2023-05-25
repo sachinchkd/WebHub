@@ -5,27 +5,36 @@ const Container = () => {
     return (
         <div className="text_container">
 
+            <div className="info-wrapper">
 
-            <h2>Problem Solved</h2>
+                <div className="container-info1">
 
-            <div className="problem-info">
+                    <h1 className="container-heading1">
 
-                <p className="problem-solved">
+                        GROW YOUR
 
-                    We provide you with the complete solution to manage your E-commerce website.
-                    
+                    </h1>
 
-                </p>
-                <p className="problem-solved">
+                </div>
 
-                No Code, scalable with your own theme models.
+                <div className="container-info2">
 
-                </p>
+                    <h1 className="container-heading2">
+                        BUSINESS
+                    </h1>
+
+                </div>
+
+                <div className="container-info3">
+
+                    <h1 className="container-heading3">
+                        ONLINE
+                    </h1>
+
+                </div>
+
 
             </div>
-
-
-
 
         </div>
     );

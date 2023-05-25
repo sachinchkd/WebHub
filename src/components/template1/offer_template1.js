@@ -22,7 +22,7 @@ export const OfferTemplate1 = () => {
 
     <div>
 
-    <div className='offer'>
+    <div className='offer-template1'>
 
       <h1 className='offer-text1'>
 
