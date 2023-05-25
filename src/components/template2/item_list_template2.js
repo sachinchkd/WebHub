@@ -43,7 +43,7 @@ export const ItemListTemplate2 = () => {
             
               <div className='item1'>
 
-                <Link to="/productCard">
+                <Link to="/template2/productCard">
 
                 <img src={pic} alt='pic'/>
 
@@ -52,7 +52,7 @@ export const ItemListTemplate2 = () => {
 
                 <div className='item1-info'>
 
-                <Link to="/productCard">
+                <Link to="/template2/productCard">
                   
                   {item1Name}
 
@@ -69,7 +69,7 @@ export const ItemListTemplate2 = () => {
 
               <div className='item2'>
 
-              <Link to="/productCard">
+              <Link to="/template2/productCard">
 
                 <img src={pic} alt='pic'/>
 
@@ -77,7 +77,7 @@ export const ItemListTemplate2 = () => {
 
               <div className='item2-info'>
 
-              <Link to="/productCard">
+              <Link to="/template2/productCard">
                   
                   {item2Name}
 
@@ -94,7 +94,7 @@ export const ItemListTemplate2 = () => {
 
               <div className='item3'>
 
-                <Link to="/productCard">
+                <Link to="/template2/productCard">
 
                   <img src={pic} alt='pic'/>
 
@@ -102,7 +102,7 @@ export const ItemListTemplate2 = () => {
 
                 <div className='item3-info'>
 
-                <Link to="/productCard">
+                <Link to="/template2/productCard">
                   
                   {item3Name}
 
@@ -119,7 +119,7 @@ export const ItemListTemplate2 = () => {
 
               <div className='item4'>
 
-                <Link to="/productCard">
+                <Link to="/template2/productCard">
 
                   <img src={pic} alt='pic'/>
 
@@ -127,7 +127,7 @@ export const ItemListTemplate2 = () => {
 
                 <div className='item4-info'>
 
-                <Link to="/productCard">
+                <Link to="/template2/productCard">
                   
                   {item4Name}
 
@@ -144,7 +144,7 @@ export const ItemListTemplate2 = () => {
 
               <div className='item5'>
 
-                <Link to="/productCard">
+                <Link to="/template2/productCard">
 
                   <img src={pic} alt='pic'/>
 
@@ -152,7 +152,7 @@ export const ItemListTemplate2 = () => {
 
                 <div className='item5-info'>
 
-                <Link to="/productCard">
+                <Link to="/template2/productCard">
                   
                   {item5Name}
 
