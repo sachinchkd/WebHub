@@ -63,10 +63,12 @@
 .price{
   font-weight: bold;
   margin-bottom: 5%;
+  
 }
 
 .size-info , .quantity-info{
   font-size: 15px;
+  margin-bottom: 1%;
   
 }
 
@@ -94,6 +96,7 @@
 .quantity{
   display: flex;
   margin-bottom: 5%;
+  margin-top: 1%;
 }
 
 
@@ -154,6 +157,8 @@
   -webkit-box-pack: center;
   justify-content: center;
   transition: background-color 0.2s ease-in-out;
+  margin-left: 0;
+  margin-right: 0;
 
 
 }

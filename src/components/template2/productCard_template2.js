@@ -1,13 +1,17 @@
 import React from 'react'
 import { NavbarTemplate2 } from './navbar_template2';
 import { Footer } from '../footer';
-import pic from '../../img/item2.jpg'
+import pic from '../../img/item3.jpg'
 
 import './productCard_template2.css'
 
 
 
-export const ProductCard = () => {
+export const ProductCardTemplate2 = () => {
+
+  const itemName = "Redmi Note 11 Pro Max"
+  const itemPrice = "Rs.40000"
+
   return (
 
     <div>
@@ -26,25 +30,25 @@ export const ProductCard = () => {
         <div className='product-card-info'>
 
           <h1 className='product-name'>
-            T-shirt
+            {itemName}
           </h1>
 
           <p className='price'>
-            Rs. 1500
+            {itemPrice}
           </p>
 
-          <h1 className='size-info'>
+          {/* <h1 className='size-info'>
             Choose size
-          </h1>
+          </h1> */}
 
-          <div className='size-btn'>
+          {/* <div className='size-btn'>
             <button> S </button>
             <button> M </button>
             <button> L </button>
             <button> XL </button>
             <button> XXL </button>
 
-          </div>
+          </div> */}
 
           <h1 className='quantity-info'>
             Quantity

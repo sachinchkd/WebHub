@@ -3,6 +3,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
 
+
 import pic from '../../img/item2.jpg'
 
 import './item_list_template2.css'
@@ -10,6 +11,20 @@ import './item_list_template2.css'
 
 
 export const ItemListTemplate2 = () => {
+
+  const item1Name = "Redmi Note 11 Pro Max";
+  const item2Name = "Redmi Note 11 Pro Max";
+  const item3Name = "Redmi Note 11 Pro Max";
+  const item4Name = "Redmi Note 11 Pro Max";
+  const item5Name = "Redmi Note 11 Pro Max";
+
+  const item1Price = "Rs.40000";
+  const item2Price = "Rs.40000";
+  const item3Price = "Rs.40000";
+  const item4Price = "Rs.40000";
+  const item5Price = "Rs.40000";
+
+
   return (
     <div>
       
@@ -34,13 +49,21 @@ export const ItemListTemplate2 = () => {
 
                 </Link>
                 
-                <a href='./productCard'>
-                  T-Shirt
-                </a>
+
+                <div className='item1-info'>
+
+                <Link to="/productCard">
+                  
+                  {item1Name}
+
+                </Link>
 
                 <p>
-                  Rs.1500
+                  {item1Price}
                 </p>
+
+                </div>
+
 
               </div>
 
@@ -52,13 +75,20 @@ export const ItemListTemplate2 = () => {
 
               </Link>
 
-                <a href='./productCard'>
-                  T-Shirt
-                </a>
+              <div className='item2-info'>
+
+              <Link to="/productCard">
+                  
+                  {item2Name}
+
+              </Link>
 
                 <p>
-                  Rs.1500
+                  {item2Price}
                 </p>
+
+              </div>
+
 
               </div>
 
@@ -70,13 +100,20 @@ export const ItemListTemplate2 = () => {
 
                 </Link>
 
-                <Link to = "/productCard">
-                  T-Shirt
+                <div className='item3-info'>
+
+                <Link to="/productCard">
+                  
+                  {item3Name}
+
                 </Link>
 
                 <p>
-                  Rs.1500
+                  {item3Price}
                 </p>
+
+                </div>
+
 
               </div>
 
@@ -88,13 +125,20 @@ export const ItemListTemplate2 = () => {
 
                 </Link>
 
-                <a href='./productCard'>
-                  T-Shirt
-                </a>
+                <div className='item4-info'>
+
+                <Link to="/productCard">
+                  
+                  {item4Name}
+
+                </Link>
 
                 <p>
-                  Rs.1500
+                  {item4Price}
                 </p>
+
+                </div>
+
 
               </div>
 
@@ -106,69 +150,23 @@ export const ItemListTemplate2 = () => {
 
                 </Link>
 
-                <a href='./productCard'>
-                  T-Shirt
-                </a>
-
-                <p>
-                  Rs.1500
-                </p>
-
-              </div>
-
-              <div className='item6'>
+                <div className='item5-info'>
 
                 <Link to="/productCard">
-
-                  <img src={pic} alt='pic'/>
+                  
+                  {item5Name}
 
                 </Link>
 
-                <a href='./productCard'>
-                  T-Shirt
-                </a>
-
                 <p>
-                  Rs.1500
+                  {item5Price}
                 </p>
+
+                </div>
+
 
               </div>
 
-              <div className='item7'>
-
-                <Link to="/productCard">
-
-                  <img src={pic} alt='pic'/>
-
-                </Link>
-
-                <a href='./productCard'>
-                  T-Shirt
-                </a>
-
-                <p>
-                  Rs.1500
-                </p>
-
-              </div>
-
-              <div className='item8'>
-
-                <Link to="/productCard">
-
-                  <img src={pic} alt='pic'/>
-
-                </Link>
-
-                <a href='./productCard'>
-                  T-Shirt
-                </a>
-
-                <p>
-                  Rs.1500
-                </p>
-
-              </div>
 
           </div>
       

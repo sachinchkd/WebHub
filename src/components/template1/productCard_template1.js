@@ -1,13 +1,13 @@
 import React from 'react'
-import { NavbarTemplate1 } from "./template1/navbar_template1";
-import { Footer } from './footer';
-import pic from '../img/item2.jpg'
+import { NavbarTemplate1 } from "./navbar_template1";
+import { Footer } from '../footer';
+import pic from '../../img/item2.jpg'
 
-import './productCard.css'
+import './productCard_template1.css'
 
 
 
-export const ProductCard = () => {
+export const ProductCardTemplate1 = () => {
   return (
 
     <div>
@@ -59,7 +59,6 @@ export const ProductCard = () => {
             <input className='quantity-input' type='text'
                    readOnly max="10" min="1" step="1" inputMode='numeric'
                    aria-invalid="false" value="1"/>
-
                   
 
             <button className='plus-btn'>
